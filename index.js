@@ -26,7 +26,7 @@ plugin.onMounted((bot, admins) => {
         );
         let msgs = [segment.face(66), "获取数据失败"];
         if (data.msg == "获取成功") {
-            msgs = ["简介：", data.dsc, "/r", data.url];
+            msgs = ["简介：", data.dsc, "\n", data.url];
         }
         return msgs;
     }
