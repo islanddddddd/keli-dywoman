@@ -6,7 +6,7 @@ const plugin = new Plugin("dywoman", version);
 // keyword是关键字，元素类型为字符串
 // timeInterval是自动发送的间隔，单位为小时，默认为6小时发送一次，数组元素为数字
 // enableGroup是启用自动发送的群，只有数组中有的群才会启用自动播报，数组元素为数字
-const config = { keyword: "dywoman", timeInterval: [6], enableGroup: [] };
+const config = { keyword: "dy", timeInterval: [6], enableGroup: [] };
 
 plugin.onMounted((bot, admins) => {
     plugin.saveConfig(Object.assign(config, plugin.loadConfig()));
