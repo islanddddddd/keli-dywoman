@@ -1,0 +1,25 @@
+{
+  "name": "keli-dywoman",
+  "version": "0.1.0",
+  "description": "抖音美女视频",
+  "main": "index.js",
+  "scripts": {
+    "release": "npm publish"
+  },
+  "keywords": [
+    "抖音",
+    "美女",
+    "keli",
+    "keli-plugin"
+  ],
+  "author": "islanddddddd",
+  "license": "ISC",
+  "homepage": "https://github.com/islanddddddd/keli-dywoman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/islanddddddd/keli-dywoman"
+  },
+  "devDependencies": {
+    "keli": "latest"
+  }
+}
